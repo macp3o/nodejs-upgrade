@@ -32,5 +32,5 @@ Latest-node depends on:
 
 ## License
 
-MIT license. See the [LICENSE](https://raw.githubusercontent.com/p3o/latest-nodejs/master/LICENSE) file. 
+MIT license. See the LICENSE file for details. 
 
