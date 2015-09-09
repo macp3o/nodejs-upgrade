@@ -22,15 +22,15 @@ There are three ways to run `latest-node.sh` from a command prompt:
 After installation, Node.js is available as `node`.
 
 
-## Requirements
+## Dependencies
 
-The following is required for latest-node:
+Latest-node depends on:
 * Bash
-* Curl, and
-* A C and C++ compiler suite supported by Node.js (clang and clang++, or gcc and g++).
+* Curl
+* C and C++ compilers supported by Node.js: clang or gcc, and clang++ or g++.
 
 
 ## License
 
-MIT License.
+MIT license. See the [LICENSE](https://raw.githubusercontent.com/p3o/latest-nodejs/master/LICENSE) file. 
 
