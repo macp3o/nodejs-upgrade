@@ -23,7 +23,7 @@ REPO=https://nodejs.org/dist/latest
 if [ -n "$1" ]; then REPO=$REPO-$1; fi
 
 LATEST=`curl -s $REPO/ | grep -sPo 'node-v[\d.]+tar\.gz' | head -1`
-if ! $?; then exit 1; fi
+if [ $? -ne 0 ]; then exit 1; fi
 
 BASENAME=`basename -s '.tar.gz' "$LATEST"`
 VERSION=`grep -sPo 'v\d+(\.\d+)*' <<< $LATEST`
