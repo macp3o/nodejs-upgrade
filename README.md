@@ -15,7 +15,7 @@ After downloading the `latest-node.sh` script, make it executable by changing th
 ~~~
 
 There are three ways to run `latest-node.sh` from a command prompt:
-* `$ latest-node.sh -- installs the latest available version of Node.js
+* `$ latest-node.sh` -- installs the latest available version of Node.js
 * `$ latest-node.sh v0.12.11` -- installs the specified version
 * `$ latest-node.sh v0.12.x` -- installs the latest release of the specified version
 
@@ -25,9 +25,12 @@ After installation, Node.js is available as `node`.
 ## Requirements
 
 The following is required for latest-node:
-* Bash, curl, and C and C++ compiler suite supported by Node.js (clang and clang++, or gcc and g++).
+* Bash
+* Curl, and
+* A C and C++ compiler suite supported by Node.js (clang and clang++, or gcc and g++).
 
 
 ## License
 
-MIT
+MIT License.
+
