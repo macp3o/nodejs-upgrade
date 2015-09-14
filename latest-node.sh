@@ -29,7 +29,7 @@ if [ $? -ne 0 ]; then
 	elif [[ $1 =~  ^v[0-9]+\.[0-9]+\.(x|[0-9]+)$ ]]; then
 		echo "Version $1 not found in $REPO."
 	else
-		echo "Incorrect format $1; must use format v0.12.2 or v0.12.x"
+		echo "Incorrect version format $1 (allowed formats are v0.12.2 or v0.12.x)"
 	fi
 	exit 1
 fi
