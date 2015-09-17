@@ -20,11 +20,12 @@ fi
 # Comman line argument can be empty | v0.12.5 | v0.12.x
 #
 REPO=https://nodejs.org/dist/latest
-if [ -n $1 ]; then REPO=$REPO-$1; fi
+if [ -n "$1" ]; then REPO=$REPO-$1; fi
 
 LATEST=`curl -s $REPO/ | grep -sPo 'node-v[\d.]+tar\.gz' | head -1`
+
 if [ $? -ne 0 ]; then
-	if [ -n $1 ]; then
+	if [ -n "$1" ]; then
 		echo "Latest version currently not accessible."
 	elif [[ $1 =~  ^v[0-9]+\.[0-9]+\.(x|[0-9]+)$ ]]; then
 		echo "Version $1 not found in $REPO."
@@ -37,11 +38,11 @@ fi
 BASENAME=`basename -s '.tar.gz' "$LATEST"`
 VERSION=`grep -sPo 'v\d+(\.\d+)*' <<< $LATEST`
 
-if [ `which node` ] && [ `node -v` = $VERSION ]; then
+if [ `which node` -a `node -v` = $VERSION ]; then
 	echo "Installed node $LATEST is already the latest version"
 	exit 0
 fi
-if [ `which nodejs` ] && [ `nodejs -v` = $VERSION ]; then
+if [ `which nodejs` -a `nodejs -v` = $VERSION ]; then
 	echo "Installed nodejs $LATEST is already the latest version"
 	exit 0
 fi
