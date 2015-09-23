@@ -11,15 +11,15 @@ The script can install the latest stable version of Node.js, or a specific relea
 
 After downloading the `latest-node.sh` script, make it executable by changing the file properties or running from a command prompt:
 ~~~ bash
-	$ chmod u+x latest-node.sh
+	chmod u+x latest-node.sh
 ~~~
 
 There are three ways to run `latest-node.sh` from a command prompt:
-* `$ latest-node.sh` -- installs the latest available version of Node.js
-* `$ latest-node.sh v0.12.11` -- installs the specified version
-* `$ latest-node.sh v0.12.x` -- installs the latest release of the specified version
+* `latest-node.sh` -- installs the latest available version of Node.js
+* `latest-node.sh v0.12.11` -- installs the specified version
+* `latest-node.sh v0.12.x` -- installs the latest release of the specified version
 
-After installation, Node.js is available as `node`.
+After installation, Node.js becomes available as `node`.
 
 
 ## Dependencies
