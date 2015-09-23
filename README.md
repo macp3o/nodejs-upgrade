@@ -1,6 +1,6 @@
 # Latest NodeJS
 
-##### Script that installs Node.js directly from https://nodejs.org.
+#### *Install Node.js directly from https://nodejs.org*
 
 Latest-node downloads, validates the shasum, compiles, and installs a Node.js stable version. This includes the node and npm executables.
 
