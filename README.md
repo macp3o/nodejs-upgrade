@@ -2,9 +2,9 @@
 
 ##### *Automatically download and install Node.js directly from nodejs.org*
 
-`Latest NodeJS` downloads, validates the shasum, compiles, and installs a Node.js stable version. This includes the node and npm executables.
+`Latest NodeJS` downloads, validates the shasum, compiles, and installs a Node.js stable version directly from the https://nodejs.org. This includes the node and npm executables.
 
-The script can install the latest stable version of Node.js, or a specific release. New versions override the previously installed version by latest-node.
+The script can install the latest stable version of Node.js, or a specific release. New versions override versions previously installed by `Latest NodeJS`.
 
 
 ## Usage
