@@ -28,7 +28,7 @@ To install a specific release (e.g. v0.12.11), run from a command prompt:
 	latest-node.sh v0.12.11
 ~~~
 
-3. Latest release of a specfic version
+#### 3. Latest release of a specfic version
 To install the latest release of a specific version (e.g. v0.12), run from a command prompt:
 ~~~
 	latest-node.sh v0.12.x
