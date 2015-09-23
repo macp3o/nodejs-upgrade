@@ -2,7 +2,7 @@
 
 ##### *Automatically download and install Node.js directly from nodejs.org*
 
-`Latest-node` downloads, validates the shasum, compiles, and installs a Node.js stable version. This includes the node and npm executables.
+`Latest NodeJS` downloads, validates the shasum, compiles, and installs a Node.js stable version. This includes the node and npm executables.
 
 The script can install the latest stable version of Node.js, or a specific release. New versions override the previously installed version by latest-node.
 
@@ -37,7 +37,7 @@ To install the latest release of a specific version (e.g. v0.12), run from a com
 
 ## Dependencies
 
-`Latest-node` requires:
+`Latest NodeJS` requires:
 * Bash
 * Curl
 * C and C++ compiler infrastructure required by Node.js: clang or gcc, and clang++ or g++.
