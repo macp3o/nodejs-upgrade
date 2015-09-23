@@ -1,6 +1,6 @@
 # Latest NodeJS
 
-#### *Automatically download and install Node.js directly from nodejs.org*
+##### *Automatically download and install Node.js directly from nodejs.org*
 
 `Latest-node` downloads, validates the shasum, compiles, and installs a Node.js stable version. This includes the node and npm executables.
 
