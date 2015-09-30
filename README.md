@@ -1,15 +1,15 @@
-# Latest NodeJS
+# Latest Node.js
 
 ##### *Automatically download and install Node.js directly from nodejs.org*
 
-`Latest NodeJS` downloads, validates the shasum, compiles, and installs a Node.js stable version directly from the https://nodejs.org. This includes the node and npm executables.
+`Latest Node.js` downloads, validates the shasum, compiles, and installs a Node.js stable version directly from the https://nodejs.org. This includes the node and npm executables.
 
-The script can install the latest stable version of Node.js, or a specific release. New versions override versions previously installed by `Latest NodeJS`.
+The script can install the latest stable version of Node.js, or a specific release. New versions override versions previously installed by `Latest Node.js`.
 
 
 ## Usage
 
-After downloading the `latest-node.sh` script, make it executable by changing the file properties or running from a command prompt:
+After downloading the `latest-node.sh` script, make it executable by running from a command prompt:
 ~~~ bash
 	chmod u+x latest-node.sh
 ~~~
@@ -37,7 +37,7 @@ To install the latest release of a specific version (e.g. v0.12), run from a com
 
 ## Dependencies
 
-`Latest NodeJS` requires:
+`Latest Node.js` requires:
 * Bash
 * Curl
 * C and C++ compiler infrastructure required by Node.js: clang or gcc, and clang++ or g++.
