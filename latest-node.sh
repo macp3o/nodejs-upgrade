@@ -39,11 +39,11 @@ BASENAME=`basename -s '.tar.gz' "$LATEST"`
 VERSION=`grep -sPo 'v\d+(\.\d+)*' <<< $LATEST`
 
 if [ `which node` -a `node -v` = $VERSION ]; then
-	echo "Installed node $LATEST is already the latest version"
+	echo "Installed node $VERSION is already the latest version"
 	exit 0
 fi
 if [ `which nodejs` -a `nodejs -v` = $VERSION ]; then
-	echo "Installed nodejs $LATEST is already the latest version"
+	echo "Installed nodejs $VERSION is already the latest version"
 	exit 0
 fi
 
