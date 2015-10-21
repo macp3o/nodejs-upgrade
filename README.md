@@ -2,9 +2,7 @@
 
 Automatically download and install Node.js directly from https://nodejs.org.
 
-Download, validate the shasum, compile, and install a Node.js stable version. This includes both `node` and `npm` executables.
-
-New versions override versions previously installed by `Latest Node`.
+Download, validate the shasum, compile, and install a Node.js stable version. This includes both `node` and `npm` executables. New versions override versions previously installed by `Latest Node`.
 
 
 ## Quick Start
