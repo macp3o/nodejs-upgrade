@@ -9,7 +9,7 @@ Download, validate the shasum, compile, and install a Node.js stable version. Th
 
 After downloading the `latest-node.sh` script, make it executable by running from a command prompt:
 ~~~ bash
-	chmod u+x latest-node.sh
+	chmod u+x latest-node
 ~~~
 
 There are three types of installation that `latest-node.sh` can carry. In any of these cases, Node.js becomes available as `node` after installation.
@@ -17,19 +17,19 @@ There are three types of installation that `latest-node.sh` can carry. In any of
 #### Install the Latest Version
 To install the latest available version of Node.js, run from a command prompt:
 ~~~
-	latest-node.sh
+	latest-node
 ~~~
 
 #### Install a Specific Release
 To install a specific release (e.g. v0.12.11), run from a command prompt:
 ~~~
-	latest-node.sh v0.12.11
+	latest-node v0.12.11
 ~~~
 
 #### Install the Latest Release of a Specfic Version
 To install the latest release of a specific version (e.g. v0.12), run from a command prompt:
 ~~~
-	latest-node.sh v0.12.x
+	latest-node v0.12.x
 ~~~
 
 
