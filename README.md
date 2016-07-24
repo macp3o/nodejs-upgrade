@@ -2,7 +2,7 @@
 
 *Download, compile, and install Node.js automatically from https://nodejs.org.*
 
-# Introduction
+## Introduction
 Latest-node is a shell script that checks for NodeJS updates, and if a newer version is available, automatically downloads and installs the new version.
 
 Latest-node can also download and install a specific stable version.
@@ -17,14 +17,14 @@ Latest-node installs both `node` and `npm` executables.
 
 New versions override versions previously installed by latest-node.
 
-# Setup
+## Setup
 
 After downloading the `latest-node.sh` script, make it executable by running from a command prompt:
 ~~~ bash
 	chmod u+x latest-node
 ~~~
 
-# Usage
+## Usage
 
 Latest-node supports three types of installation. Regardeless of the type of installation, latest-node always overwrites the `node` and `npm` binaries.
 
@@ -47,7 +47,7 @@ To install the latest release of a specific version (e.g. v0.12), run from a com
 ~~~
 
 
-# Dependencies
+## Dependencies
 
 Latest0-node requires:
 * Bash
@@ -55,7 +55,7 @@ Latest0-node requires:
 * C and C++ compiler infrastructure required by Node.js: clang or gcc, and clang++ or g++.
 
 
-# License
+## MIT License
 
-MIT license. See the LICENSE file for details. 
+See the LICENSE file for details. 
 
