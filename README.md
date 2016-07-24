@@ -2,7 +2,7 @@
 
 *Download, compile, and install Node.js automatically from https://nodejs.org.*
 
-# Introductions
+# Introduction
 Latest-node is a shell script that checks for NodeJS updates, and if a newer version is available, automatically downloads and installs the new version.
 
 Latest-node can also download and install a specific stable version.
