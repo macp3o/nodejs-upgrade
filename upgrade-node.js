@@ -6,8 +6,8 @@
 #
 
 if [ "$1" = "-h" -o "$1" = "--help" ]; then
-	echo "Usage: latest-node"
-	echo "  or: latest-node VERSION"
+	echo "Usage: upgrade-node.js"
+	echo "  or: upgrade-node.js VERSION"
 	echo "Download, compile, and install a Node.js versiion from https://nodejs.org."
 	echo
 	echo "If no version is specified, the latest version is selected."
