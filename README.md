@@ -1,4 +1,4 @@
-# Upgrade-Node.JS
+# Upgrade Node.JS
 
 *On the cutting-edge of Node.JS development.*
 
@@ -9,7 +9,7 @@ Upgrade-node.js is a shell script that checks for NodeJS updates, and if a newer
 
 Upgrade-node.js can also download and install a specific stable version.
 
-## How It Works
+## How It Works?
 Upgrade-node.js automates the following operations:
 * Checks for a specific version or latest stable version of NodeJS.
 * Downloads the source code from https://nodejs.org.
