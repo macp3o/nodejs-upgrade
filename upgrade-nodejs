@@ -1,13 +1,13 @@
 #! /bin/bash
 #
-# Install the lastest node.js version from source
+# Install the lastest Node.js version from source
 #
 # Requires curl, and gcc and g++ or clang and clang++
 #
 
 if [ "$1" = "-h" -o "$1" = "--help" ]; then
-	echo "Usage: upgrade-node.js"
-	echo "  or: upgrade-node.js VERSION"
+	echo "Usage: upgrade-nodejs"
+	echo "  or: upgrade-nodejs VERSION"
 	echo "Download, compile, and install a Node.js versiion from https://nodejs.org."
 	echo
 	echo "If no version is specified, the latest version is selected."
@@ -43,7 +43,7 @@ if [ `which node` -a `node -v` = $VERSION ]; then
 	exit 0
 fi
 if [ `which nodejs` -a `nodejs -v` = $VERSION ]; then
-	echo "Installed nodejs $VERSION is already the latest version"
+	echo "Installed node $VERSION is already the latest version"
 	exit 0
 fi
 
@@ -58,11 +58,11 @@ curl -o $LATEST $REPO/$LATEST
 echo "Verifying (shasum)"
 SHASUM=`curl -s $REPO/SHASUMS256.txt.asc | grep -s $LATEST`
 if [ "`shasum -a 256 $LATEST`" != "$SHASUM" ]; then
-	echo "File corrupted (non-matching shasums)"
+	echo "File corrupted: non-matching shasums"
 	popd > /dev/null
 	exit 1
 else
-	echo "File shasum is okay"
+	echo "File shasum matches"
 fi
 
 echo "Compiling from source"
