@@ -1,4 +1,4 @@
-# NodeJS Upgrade
+# Node.js Upgrade
 
 *On the cutting-edge of Node.js development.*
 
