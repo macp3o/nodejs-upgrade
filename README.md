@@ -56,5 +56,5 @@ Nodejs-upgrade requires:
 
 
 ## MIT License
-See the LICENSE file for details. 
+Node.js Upgrade is open-source software released under the MIT license. See the LICENSE file for details. 
 
