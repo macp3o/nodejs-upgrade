@@ -23,7 +23,7 @@ New versions override versions previously installed.
 ## Quick Installation
 After downloading the `nodejs-upgrade` script, make it executable by running from a command prompt:
 ~~~ bash
-	$  chmod u+x nodejs-upgrade
+$  chmod u+x nodejs-upgrade
 ~~~
 
 ## Usage
@@ -32,19 +32,19 @@ Nodejs-upgrade supports three types of installation. Regardeless of the type of 
 #### Install the Latest Available Version
 To install the latest available version of Node.js, run from a command prompt:
 ~~~ bash
-	$  nodejs-upgrade
+$  nodejs-upgrade
 ~~~
 
 #### Install a Specific Release
 To install a specific release (e.g. v0.12.11), run from a command prompt:
 ~~~ bash
-	$  nodejs-upgrade v0.12.11
+$  nodejs-upgrade v0.12.11
 ~~~
 
 #### Install the Latest Release of a Specfic Version
 To install the latest release of a specific version (e.g. v0.12), run from a command prompt:
 ~~~
-	$  nodejs-upgrade v0.12.x
+$  nodejs-upgrade v0.12.x
 ~~~
 
 
