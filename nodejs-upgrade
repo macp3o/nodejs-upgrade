@@ -11,8 +11,8 @@ if [ "$1" = "-h" -o "$1" = "--help" ]; then
 	echo "Download, compile, and install a Node.js versiion from https://nodejs.org."
 	echo
 	echo "If no version is specified, the latest version is selected."
-	echo "Otherwise, a version number must use the format v0.12.2 or v0.12.x."
-	echo "The v0.12.x form means the latest release of version v0.12."
+	echo "Otherwise, VERSION uses the format v8.12.2, v8.12.x, or v8.x."
+	echo "The v8.12.x form means the latest release of version v8.12."
 	exit 0
 fi
 
@@ -53,7 +53,7 @@ fi
 cd /tmp > /dev/null
 
 echo "Downloading source of node $VERSION"
-if ! curl -o $LATEST $REPO/$LATEST; then exit 1; fi
+if ! curl -C - -o $LATEST $REPO/$LATEST; then exit 1; fi
 
 echo "Verifying (shasum)"
 SHASUM=`curl -s $REPO/SHASUMS256.txt.asc | grep -s $LATEST`
